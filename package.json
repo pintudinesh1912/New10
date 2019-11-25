@@ -6,7 +6,7 @@
 		"test":"tests"
 	},
 	"scripts":{
-		"api-tests-bestbuy":"newman run tests/BestBuyAPI-Services.postman_collection.json -r htmlextra --reporter-htmlextra-logs --reporter-htmlextra-export newman.html"
+		"api-tests-bestbuy":"newman run BestBuyAPI-Services.postman_collection.json -r htmlextra --reporter-htmlextra-darkTheme --reporter-htmlextra-title “New10”"
 	},
 	"author":"Dinesh",
 	"dependencies": {
